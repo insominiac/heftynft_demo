@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
-import web3 from "..components/web3"
-import auctionfactory from "..components/auctionfactory"
-import auction from '..components/auction';
+import web3 from '../components/web3';
+import auctionfactory from "../components/auctionfactory"
+import auction from '../components/auction';
 
  class Admin extends Component {
 
