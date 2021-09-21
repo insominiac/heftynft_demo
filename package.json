@@ -1,0 +1,31 @@
+{
+  "name": "heftynft",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "bootstrap": "^4.4.1",
+    "ethers": "^5.4.6",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "17.0.2",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "walletconnect": "^1.6.5",
+    "walletlink": "^2.1.9",
+    "web3": "^1.5.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
+    "typescript": "^4.4.3"
+  }
+}

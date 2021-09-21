@@ -1,0 +1,112 @@
+@media screen and (max-width: 1439px){
+    h2.sec_title{ font-size: 40px; }
+    .row.m-lr-65{ margin: 0 -30px; }
+    .row.m-lr-65 > div{ padding-right: 30px; padding-left: 30px; }
+    .three_slide_carousal{ padding: 0 30px; }
+    .slick-arrow.slick-prev{ left: -10px; }
+    .slick-arrow.slick-next{ right: -10px; }
+    .footer{ padding-top: 100px; }
+    .banner_sec,.banner_sec.drop_page-banner{ height: 600px; }
+    .top_drops_sec{ padding-bottom: 60px; }
+    .top_drops_sec .tab-content h2{ font-size: 42px; line-height: 42px; }
+    .header .container{ padding: 15px; }
+    .album_carousal .slide{ padding: 0 10px; }
+}
+
+@media screen and (max-width: 1359px){
+    .row.m-lr-65{ margin: 0 -15px; }
+    .row.m-lr-65 > div{ padding-right: 15px; padding-left: 15px; }
+    .three_slide_carousal{ padding: 0 40px; }
+    .slick-arrow.slick-prev{ left: -15px; }
+    .slick-arrow.slick-next{ right: -15px; }
+    .btn{ font-size: 14px; }
+    .header .nav_links ul li{ font-size: 14px; }
+    .banner_sec h1{ font-size: 40px; line-height: 50px; }
+    .bid_sec .img_view{ padding: 50px; }
+    .bid_sec .detail_view{ padding-left: 30px; padding-right: 30px; }
+}
+
+@media screen and (max-width:1199px){
+    .header .logo img{ width: 160px; }
+    .header .nav_links{ margin-right: 0; }
+    h2.sec_title{ font-size: 30px; }
+    .nav-tabs.theme1 a.nav-link{
+        padding: 11px 16px;
+        font-size: 14px; font-weight: 400;
+    }
+    .top_drops_sec .tab-content h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .people_status .pose , .people_status .name, .top_drops_sec .tab-content .date{
+        font-size: 14px;
+    }
+    .footer .logo img{ width: 180px; }
+    .footer ul li{ font-size: 14px; line-height: 14px; }
+    h3.sec_title{ font-size: 24px; }
+    .bid_sec .img_view{ padding: 30px; }
+    .bid_sec .detail_view{ padding-left: 15px; padding-right: 15px; }
+    .bid_sec .album_name{ font-size: 24px; }
+    .bid_sec .small_detail .value{ font-size: 18px; }
+    .bid_sec .popup{ padding: 25px 15px 15px; }
+    .bid_sec .popup .title{ max-width: 70%; }
+}
+
+@media screen and (min-width: 767px){
+    .header .nav_links{ display: inline-block !important; }
+}
+
+@media screen and (max-width: 767px){
+   .btn-humburger{ display: inline-block; }
+   .header .actions a{ margin-right: 10px; padding: 5px 15px; }
+   .header .nav_links{
+       width: 100%;
+       position: absolute; top: 100%; left: 0;
+       background-color: rgba(0,0,0,0.8); z-index: 10;
+       display: none;
+   }
+   .header .nav_links ul li{ display: block; margin: 0; text-align: left; }
+    .col-auto{ position: static; }
+  .logo img{ width: 130px; }
+   .header .actions{ display: block; padding: 10px; }
+   .top_drops_sec .sec_title{ margin-bottom: 30px; }
+   .slick-arrow{ width: 40px; height: 40px; }
+   .top_drops_sec .carousal img{ height: 450px; }
+   .pb-xs-30{ padding-bottom: 30px; }
+   .pb-xs-20{ padding-bottom: 20px; }
+   .top_drops_sec .nav-tabs{ margin-bottom: 30px; }
+   .people_status .avtar{ width: 40px; height: 40px; }
+   .top_drops_sec .blockquote .eth{ font-size: 32px; line-height: 32px; }
+   .top_drops_sec .blockquote .price{ font-size: 16px; }
+   .three_slide_carousal{ padding: 0px; }
+   .slick-arrow.slick-next {
+    right: 5px;
+   }
+    .slick-arrow.slick-prev {
+        left: 5px;
+    }
+    .footer ul li{ padding: 0 5px; font-size: 12px; }
+    .footer .copyright{ font-size: 12px; }
+    .banner_sec p {
+        font-size: 14px;
+        line-height: 22px;
+        color: #fff;
+    }
+    .banner_sec .date{ font-size: 14px; }
+    .title_wrap .btn{ min-width: auto; padding: 10px 15px; height: 40px; font-size: 12px; }
+    .album_carousal .slide{ padding: 0 15px; }
+    .album_carousal{ margin: 0 -15px; }
+    .album_carousal .thumbnail{ height: 300px; }
+    .album_carousal .album_name{ font-size: 18px; }
+    .album_carousal .author .author_name{ font-size: 14px; }
+    .bid_sec .col-left, .bid_sec .col-right{ width: 100%; }
+    .bid_sec .col-left{ border-radius: 20px 20px 0 0; }
+    .bid_sec .img_view{ padding: 15px; }
+    .bid_sec .col-right{ border-radius: 0 0 20px 20px; }
+    .popup .btn-cancel{ margin-bottom: 15px; }
+    .section.pt-header{ padding-top: 60px; }
+}
+
+@media screen and (max-width: 479px){
+    
+}

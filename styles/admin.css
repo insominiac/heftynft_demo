@@ -1,0 +1,31 @@
+
+.admin.wrapper {
+    margin: 0 auto;
+    background:#F0F0F0;
+    height:1000px;
+}
+
+.admin_container {
+    width: 50%;
+    margin: 0 auto;
+}
+.admin_container label {
+    display:block;
+    margin-bottom:10px;
+}
+.admin_container input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+.admin_container button {
+    margin: 2em 0;
+    padding: 1em 4em;
+    display:block;
+}
+
+#instructor {
+    padding:1em;
+    background-color:#fff;
+    margin: 1em 0;
+}

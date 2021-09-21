@@ -1,0 +1,168 @@
+.bid.wrapper{
+  background: #020202 url(/images/background3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bid_sec {
+  max-width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.bid_sec .container {
+  padding: 45px 15px;
+  max-width: none;
+}
+
+.bid_sec article {
+  border-radius: 30px;
+}
+
+.bid_sec .col-left {
+  width: 55%;
+  background-color: #fff;
+  border-radius: 30px 0 0 30px;
+}
+
+.bid_sec .img_view {
+  padding: 80px 130px;
+  border-radius: 30px 0 0 30px;
+}
+
+.bid_sec .col-right {
+  width: 45%;
+  background-color: #000;
+  border-radius: 0 30px 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.bid_sec .col-right .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.bid_sec .detail_view {
+  padding: 80px 50px 40px;
+  height: 100%;
+}
+
+.people_status {
+  margin: 40px 0;
+}
+
+.people_status .link {
+  font-size: 12px;
+  color: #fff;
+}
+
+.people_status .link span, .people_status .link i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.people_status .link i {
+  margin-left: 6px;
+}
+.people_status .link span, .people_status .link i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-share {
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(/images/icon-share.png) no-repeat;
+  background-size: 31px 31px;
+}
+
+.icon-copy {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  background: url(/images/icon-copy.png) no-repeat;
+  background-size: 18px 18px;
+}
+
+
+
+.bid_sec .album_name {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.bid_sec .small_detail h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.bid_sec .small_detail .value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.bid_sec .small_detail h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.bid_sec .small_detail .value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+.bid_sec .small_detail .slot {
+  padding-right: 10px;
+}
+
+.bid_sec .small_detail .value span {
+  font-size: 16px;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+
+.bid_sec .desc {
+  margin: 30px 0;
+}
+
+.bid_sec .desc p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fefefe;
+  opacity: 0.3;
+}
+
+.bid_sec .edition {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 17px 20px;
+  margin-bottom: 30px;
+}
+
+.bid_sec .edition .edition_name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.bid_sec .edition .select_edition {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2fbeff;
+}

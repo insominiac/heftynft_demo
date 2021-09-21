@@ -1,0 +1,165 @@
+.artist_detail_banner {
+    height: 500px;
+    position: relative;
+    background: #020202 url(/images/backgroundartist.jpg) no-repeat;
+        background-size: cover;
+}
+
+.artist_page .featured_artists_sec {
+    padding-top: 60px;
+}
+
+.featured_artists_sec {
+    padding-bottom: 30px;
+}
+
+.mini-container {
+    max-width: 1130px;
+}
+
+.sort_by h6 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-right: 14px;
+}
+
+.sort_by .dropdown {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sort_by .dropdown .btn {
+    padding: 10px 20px;
+    text-transform: none;
+}
+
+.title_wrap .btn {
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    height: 45px;
+    min-width: 145px;
+}
+
+.sort_by .dropdown .dropdown-menu {
+    padding: 0.5rem 0.2rem;
+    border-radius: 1rem;
+}
+
+.sort_by .dropdown .dropdown-menu {
+    padding: 0.5rem 0.2rem;
+    border-radius: 1rem;
+}
+
+.featured_artists_sec .grid {
+    margin: 0 -15px;
+}
+
+.featured_artists_sec .grid .slide {
+    padding: 15px;
+}
+
+.featured_artists_sec .carousal .wrap {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.featured_artists_sec .carousal .wrap .name span {
+    position: relative;
+}
+
+.featured_artists_sec .carousal .wrap .name .icon-verified {
+    width: 20px;
+    height: 20px;
+    background: url(/images/icon-verified.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: -25px;
+    top: -5px;
+}
+
+.featured_artists_sec .carousal .wrap .creations-followers {
+    margin: 30px 0;
+}
+
+
+.featured_artists_sec .carousal .wrap .creations-followers .count {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.featured_artists_sec .carousal .wrap .creations-followers .row > div {
+    position: relative;
+}
+.featured_artists_sec .carousal .wrap .creations-followers h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
+
+.featured_artists_sec .carousal .wrap .cta .btn-follow {
+    font-size: 16px;
+    min-width: 130px;
+}
+
+.featured_artists_sec .carousal .wrap .creations-followers .row .first::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 60%;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+
+.selectpicker{
+    padding: 10px 20px;
+    text-transform: none;
+     border: 1px solid #fff;
+   
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px;
+    height: 45px;
+    min-width: 220px;
+    border-radius: 50px;
+}
+
+.selectpicker::after{
+
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+
+}
+
+.dropdown-menu {width:100%;}
+.featured_artists_sec .carousal .wrap .cta .btn-follow:hover {
+    background-color: #fff;
+    color: #000;
+}
